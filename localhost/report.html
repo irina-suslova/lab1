@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Отчёт lab1</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center><h1>Алгоритмы сортировки</h1>
+        <h3>Лабораторная работа №1</h3>
+        <h5>По курсу «Языки программирования и методы программирования» (информатика, 3 семестр)</h5>
+        <p><i>Цель:</i> написать алгоритмы сортировки и проанализировать их работу на различных данных.</p>
+        <p>Реализованные следующие <i>алгоритмы сортировок:</i></p></center>
+        <ol>
+            <li>BubbleSort (пузырьковая сортировка)</li>
+            <li>ShakerSort(модификация метода пузырька)</li>
+            <li>MergeSort (сортировка слиянием)</li>
+            <li>HeapSort (пирамидальная сортировка)</li>
+            <li>QuickSort (быстрая сортировка с опорным случайным элементом)</li>
+        </ol>
+        <center><p>Возможна <i>генерация</i> следующих наборов данных:</p></center>
+        <ol>
+            <li>Случайные значения</li>
+            <li>Массив возрастающих элементов</li>
+            <li>Массив убывающих элементов</li>
+        </ol>
+        <center><p><i>Тестирование</i> проводилось на:</p></center>
+        <ul>
+            <li>(для медленных сортировок – квадратичных) числах от 0 до 3000, от 0 до 1000 шаг 100, от 1000 до 3000 шаг 200</li>
+            <li>(для быстрых сортировок – n log(n)) числах от 0 до 10000, от 0 до 1000 шаг 100, от 1000 до 3000 шаг 200, от 3000 до 1000 шаг 500.</li>
+        </ul>
+        <center><p>Значения были выбраны исходя из возможностей компьютера. Далее по графикам можно будет увидеть, что где-то можно было бы повысить верхнюю границу, однако она выбиралась исходя из самого медленного алгоритма группы, чтобы в последствие было удобнее сравнивать графики разных сортировок.</p>
+        <p>Код тестов можно посмотреть в «graphtests.cpp», результаты измерения времени и графики в папке «testsLab1». Графики были построены с помощью библиотеки pandas для Python. Посмотреть реализацию можно в lab1.ipynb (файл jupyter notebook).</p>
+        <p>Меню представлено в виде сайта, папка сервера – «localhost» (было проведено сокращение количества exe-файлов и сделан более аккуратный вызов функции).</p>
+        <p><i>Графики</i></p>
+        <div><div>
+            <img src="lab1_img\ArrayBubbleSort.png" alt="ArrayBubbleSort">
+            <img src="lab1_img\ListBubbleSort.png" alt="ListBubbleSort">
+        </div>
+        <div>
+            <img src="lab1_img\ArrayShakerSort.png" alt="ArrayShakerSort">
+            <img src="lab1_img\ListShakerSort.png" alt="ListShakerSort">
+        </div>
+        <div>
+            <img src="lab1_img\ArrayMergeSort.png" alt="ArrayMergeSort">
+            <img src="lab1_img\ListMergeSort.png" alt="ListMergeSort">
+        </div>
+        <div>
+            <img src="lab1_img\ArrayHeapSort.png" alt="ArrayHeapSort">
+            <img src="lab1_img\ListHeapSort.png" alt="ListHeapSort">
+        </div>
+        <div>
+            <img src="lab1_img\ArrayQuickSort.png" alt="ArrayQuickSort">
+            <img src="lab1_img\ListQuickSort.png" alt="ListQuickSort">
+        </div></div>
+        <p>Как видно по графикам, алгоритмы на ListSequence работают сильно медленнее, чем ArraySequence (до 100 раз, например, на быстрой сортировке). Это можно объяснить тем, что чаще всего вызывается функция обращения к элементу по индексу, что в ListSequence происходит за O(n), а в ArraySequence за O(1).</p>
+        <p>Квадратичные сортировки показали себя практически одинаково на случайных данных, однако на отсортированных в обратом порядке данных ShakerSort работает медленнее.</p>
+        <p>Из быстрых сортировок лучше всего работает QuickSort.</p>
+        <div class="button-container">
+            <a href="http://localhost/index.html" class="double-border-button">Назад</a>
+        </div></center>
+    </body>
+</html>

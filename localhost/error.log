@@ -1,0 +1,98 @@
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::848b:7539:749f:fb6b. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 25 14:37:59.441662 2021] [mpm_winnt:notice] [pid 13732:tid 776] AH00455: Apache/2.4.51 (Win64) PHP/8.0.12 configured -- resuming normal operations
+[Mon Oct 25 14:37:59.441662 2021] [mpm_winnt:notice] [pid 13732:tid 776] AH00456: Apache Lounge VS16 Server built: Oct  7 2021 16:27:02
+[Mon Oct 25 14:37:59.441662 2021] [core:notice] [pid 13732:tid 776] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Oct 25 14:37:59.448612 2021] [mpm_winnt:notice] [pid 13732:tid 776] AH00418: Parent: Created child process 6964
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::848b:7539:749f:fb6b. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using fe80::848b:7539:749f:fb6b. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 25 14:37:59.872192 2021] [mpm_winnt:notice] [pid 6964:tid 828] AH00354: Child: Starting 64 worker threads.
+[Mon Oct 25 14:42:56.631865 2021] [mpm_winnt:notice] [pid 13732:tid 776] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Oct 25 14:42:58.634191 2021] [mpm_winnt:notice] [pid 6964:tid 828] AH00364: Child: All worker threads have exited.
+[Mon Oct 25 14:42:58.662265 2021] [mpm_winnt:notice] [pid 13732:tid 776] AH00430: Parent: Child process 6964 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::848b:7539:749f:fb6b. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 25 14:43:01.846869 2021] [mpm_winnt:notice] [pid 13300:tid 776] AH00455: Apache/2.4.51 (Win64) PHP/8.0.12 configured -- resuming normal operations
+[Mon Oct 25 14:43:01.846869 2021] [mpm_winnt:notice] [pid 13300:tid 776] AH00456: Apache Lounge VS16 Server built: Oct  7 2021 16:27:02
+[Mon Oct 25 14:43:01.846869 2021] [core:notice] [pid 13300:tid 776] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Oct 25 14:43:01.854850 2021] [mpm_winnt:notice] [pid 13300:tid 776] AH00418: Parent: Created child process 7272
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::848b:7539:749f:fb6b. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using fe80::848b:7539:749f:fb6b. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 25 14:43:02.274706 2021] [mpm_winnt:notice] [pid 7272:tid 824] AH00354: Child: Starting 64 worker threads.
+[Mon Oct 25 14:43:21.630340 2021] [php:warn] [pid 7272:tid 1284] [client ::1:50988] PHP Warning:  file_get_contents(results/array.txt): Failed to open stream: No such file or directory in C:\\localhost\\results.php on line 7, referer: http://localhost/sort.html
+[Mon Oct 25 14:43:21.630340 2021] [php:warn] [pid 7272:tid 1284] [client ::1:50988] PHP Warning:  file_get_contents(results/sorted.txt): Failed to open stream: No such file or directory in C:\\localhost\\results.php on line 8, referer: http://localhost/sort.html
+[Mon Oct 25 14:43:21.630340 2021] [php:warn] [pid 7272:tid 1284] [client ::1:50988] PHP Warning:  file_get_contents(results/time.txt): Failed to open stream: No such file or directory in C:\\localhost\\results.php on line 9, referer: http://localhost/sort.html
+[Mon Oct 25 14:47:09.155468 2021] [php:warn] [pid 7272:tid 1284] [client ::1:51083] PHP Warning:  file_get_contents(results/array.txt): Failed to open stream: No such file or directory in C:\\localhost\\results.php on line 7, referer: http://localhost/sort.html
+[Mon Oct 25 14:47:09.155468 2021] [php:warn] [pid 7272:tid 1284] [client ::1:51083] PHP Warning:  file_get_contents(results/sorted.txt): Failed to open stream: No such file or directory in C:\\localhost\\results.php on line 8, referer: http://localhost/sort.html
+[Mon Oct 25 14:47:09.155468 2021] [php:warn] [pid 7272:tid 1284] [client ::1:51083] PHP Warning:  file_get_contents(results/time.txt): Failed to open stream: No such file or directory in C:\\localhost\\results.php on line 9, referer: http://localhost/sort.html
+[Mon Oct 25 14:47:20.742018 2021] [mpm_winnt:notice] [pid 13300:tid 776] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Oct 25 14:47:22.744009 2021] [mpm_winnt:notice] [pid 7272:tid 824] AH00364: Child: All worker threads have exited.
+[Mon Oct 25 14:47:22.774922 2021] [mpm_winnt:notice] [pid 13300:tid 776] AH00430: Parent: Child process 7272 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::848b:7539:749f:fb6b. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 25 14:47:27.110678 2021] [mpm_winnt:notice] [pid 15140:tid 800] AH00455: Apache/2.4.51 (Win64) PHP/8.0.12 configured -- resuming normal operations
+[Mon Oct 25 14:47:27.110678 2021] [mpm_winnt:notice] [pid 15140:tid 800] AH00456: Apache Lounge VS16 Server built: Oct  7 2021 16:27:02
+[Mon Oct 25 14:47:27.110678 2021] [core:notice] [pid 15140:tid 800] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Oct 25 14:47:27.118621 2021] [mpm_winnt:notice] [pid 15140:tid 800] AH00418: Parent: Created child process 9916
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::848b:7539:749f:fb6b. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using fe80::848b:7539:749f:fb6b. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 25 14:47:27.537911 2021] [mpm_winnt:notice] [pid 9916:tid 796] AH00354: Child: Starting 64 worker threads.
+[Mon Oct 25 14:47:42.163614 2021] [php:warn] [pid 9916:tid 1340] [client ::1:51093] PHP Warning:  file_get_contents(results/array.txt): Failed to open stream: No such file or directory in C:\\localhost\\results.php on line 7, referer: http://localhost/sort.html
+[Mon Oct 25 14:47:42.163614 2021] [php:warn] [pid 9916:tid 1340] [client ::1:51093] PHP Warning:  file_get_contents(results/sorted.txt): Failed to open stream: No such file or directory in C:\\localhost\\results.php on line 8, referer: http://localhost/sort.html
+[Mon Oct 25 14:47:42.163614 2021] [php:warn] [pid 9916:tid 1340] [client ::1:51093] PHP Warning:  file_get_contents(results/time.txt): Failed to open stream: No such file or directory in C:\\localhost\\results.php on line 9, referer: http://localhost/sort.html
+[Mon Oct 25 14:51:09.623721 2021] [php:error] [pid 9916:tid 1340] [client ::1:51170] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\\localhost\\results.php on line 2, referer: http://localhost/sort.html
+[Mon Oct 25 14:51:19.836933 2021] [php:error] [pid 9916:tid 1340] [client ::1:51176] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\\localhost\\results.php on line 2, referer: http://localhost/sort.html
+[Mon Oct 25 14:51:26.416324 2021] [php:error] [pid 9916:tid 1328] [client ::1:51182] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\\localhost\\results.php on line 2, referer: http://localhost/sort.html
+"results" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+"results" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+"results" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+"results" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+[Mon Oct 25 14:57:22.954367 2021] [php:error] [pid 9916:tid 1328] [client ::1:51314] PHP Fatal error:  Uncaught Error: Undefined constant "cmd" in C:\\localhost\\results.php:9\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\results.php on line 9, referer: http://localhost/sort.html
+"results" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+[Mon Oct 25 15:36:09.427264 2021] [php:error] [pid 9916:tid 1328] [client ::1:52170] PHP Parse error:  syntax error, unexpected token "if" in C:\\localhost\\results.php on line 8, referer: http://localhost/sort.html
+[Mon Oct 25 15:36:25.762683 2021] [php:error] [pid 9916:tid 1328] [client ::1:52175] PHP Parse error:  syntax error, unexpected double-quote mark in C:\\localhost\\results.php on line 76, referer: http://localhost/sort.html
+[Mon Oct 25 15:45:21.155111 2021] [php:error] [pid 9916:tid 1328] [client ::1:52400] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\localhost\\results.php on line 75, referer: http://localhost/sort.html
+[Mon Oct 25 15:45:35.273213 2021] [php:error] [pid 9916:tid 1328] [client ::1:52404] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\localhost\\results.php on line 75, referer: http://localhost/sort.html
+[Mon Oct 25 15:46:02.364152 2021] [php:error] [pid 9916:tid 1328] [client ::1:52417] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\localhost\\results.php on line 75, referer: http://localhost/sort.html
+[Mon Oct 25 15:46:05.869819 2021] [php:error] [pid 9916:tid 1328] [client ::1:52417] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\localhost\\results.php on line 75, referer: http://localhost/sort.html
+[Mon Oct 25 15:48:03.191971 2021] [mpm_winnt:notice] [pid 15140:tid 800] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Oct 25 15:48:05.196035 2021] [mpm_winnt:notice] [pid 9916:tid 796] AH00364: Child: All worker threads have exited.
+[Mon Oct 25 15:48:05.250520 2021] [mpm_winnt:notice] [pid 15140:tid 800] AH00430: Parent: Child process 9916 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::848b:7539:749f:fb6b. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 25 15:48:09.046399 2021] [mpm_winnt:notice] [pid 3564:tid 784] AH00455: Apache/2.4.51 (Win64) PHP/8.0.12 configured -- resuming normal operations
+[Mon Oct 25 15:48:09.046399 2021] [mpm_winnt:notice] [pid 3564:tid 784] AH00456: Apache Lounge VS16 Server built: Oct  7 2021 16:27:02
+[Mon Oct 25 15:48:09.046399 2021] [core:notice] [pid 3564:tid 784] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Oct 25 15:48:09.053380 2021] [mpm_winnt:notice] [pid 3564:tid 784] AH00418: Parent: Created child process 8624
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::848b:7539:749f:fb6b. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using fe80::848b:7539:749f:fb6b. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 25 15:48:09.493178 2021] [mpm_winnt:notice] [pid 8624:tid 800] AH00354: Child: Starting 64 worker threads.
+[Mon Oct 25 17:35:15.703578 2021] [php:error] [pid 8624:tid 824] [client ::1:54101] PHP Parse error:  syntax error, unexpected variable "$TypeSeq", expecting ")" in C:\\localhost\\results.php on line 8, referer: http://localhost/sort.html
+[Mon Oct 25 17:37:22.351610 2021] [php:error] [pid 8624:tid 824] [client ::1:54142] PHP Parse error:  syntax error, unexpected variable "$TypeSeq", expecting ")" in C:\\localhost\\results.php on line 8, referer: http://localhost/sort.html
+[Mon Oct 25 17:38:25.682608 2021] [php:error] [pid 8624:tid 824] [client ::1:54156] PHP Parse error:  Unmatched ')' in C:\\localhost\\results.php on line 8, referer: http://localhost/sort.html
+[Mon Oct 25 17:38:39.342981 2021] [php:error] [pid 8624:tid 824] [client ::1:54170] PHP Parse error:  syntax error, unexpected variable "$TypeSeq", expecting ")" in C:\\localhost\\results.php on line 8, referer: http://localhost/sort.html
+[Mon Oct 25 17:38:42.038090 2021] [php:error] [pid 8624:tid 824] [client ::1:54170] PHP Parse error:  syntax error, unexpected variable "$TypeSeq", expecting ")" in C:\\localhost\\results.php on line 8, referer: http://localhost/sort.html
+[Mon Oct 25 17:38:48.565961 2021] [php:error] [pid 8624:tid 824] [client ::1:54175] PHP Parse error:  syntax error, unexpected variable "$TypeSeq", expecting ")" in C:\\localhost\\results.php on line 8, referer: http://localhost/sort.html
+[Mon Oct 25 17:39:44.368351 2021] [php:error] [pid 8624:tid 824] [client ::1:54183] PHP Parse error:  syntax error, unexpected variable "$TypeSeq", expecting ")" in C:\\localhost\\results.php on line 8, referer: http://localhost/sort.html
+"C:/localhost/sorts/SequenceRandBubbleSort.exe" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+"C:/localhost/sorts/SequenceRandBubbleSort.exe" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+"C:/localhost/sorts/SequenceRandBubbleSort.exe" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+"C:/localhost/sorts/SequenceRandBubbleSort.exe" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+[Mon Oct 25 17:42:16.821538 2021] [php:warn] [pid 8624:tid 824] [client ::1:54239] PHP Warning:  Undefined array key 1 in C:\\localhost\\results.php on line 8, referer: http://localhost/sort.html
+"C:/localhost/sorts/RandBubbleSort.exe" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+[Mon Oct 25 17:51:28.415687 2021] [php:error] [pid 8624:tid 1304] [client ::1:53341] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\localhost\\results.php on line 75, referer: http://localhost/sort.html
+[Mon Oct 25 18:21:34.776132 2021] [mpm_winnt:notice] [pid 3564:tid 784] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Oct 25 18:22:06.908643 2021] [mpm_winnt:notice] [pid 8624:tid 800] AH00362: Child: Waiting 30 more seconds for 1 worker threads to finish.
+[Mon Oct 25 18:22:37.135699 2021] [mpm_winnt:notice] [pid 8624:tid 800] AH00362: Child: Waiting 0 more seconds for 1 worker threads to finish.
+[Mon Oct 25 18:22:37.236514 2021] [mpm_winnt:notice] [pid 8624:tid 800] AH00363: Child: Terminating 1 threads that failed to exit.
+[Mon Oct 25 18:22:37.236514 2021] [mpm_winnt:notice] [pid 8624:tid 800] AH00364: Child: All worker threads have exited.

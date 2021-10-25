@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Сортировка lab1</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center><h1>Алгоритмы сортировки</h1>
+        <h3>Лабораторная работа №1</h3>
+        
+        <h2>Сортировка данных</h2>
+        <form action="results.php" method="post">
+            <p><b>Введите количество элементов:</b> <input type="number" name="number" min="0" value="0"> </p>
+            
+            <p><b>Выберите структуру, в которой будут храниться данные:</b></p>
+            <input type="radio" name="groupTypeSeq" value="ArraySequence" checked>ArraySequence<br>
+            <input type="radio" name="groupTypeSeq" value="ListSequence">ListSequence<br>
+            
+            <p><b>Выберите желаемые данные для генерации:</b></p>
+            <input type="radio" name="groupGen" value="Random" checked>Случайные элементы<br>
+            <input type="radio" name="groupGen" value="Sorted">Осортированные во порядке возрастания<br>
+            <input type="radio" name="groupGen" value="Reversed">Осортированные в порядке убывания<br>
+            
+            <p><b>Выберите сортировку:</b></p>
+            <input type="radio" name="groupTypeSort" value="BubbleSort" checked>BubbleSort (пузырьковая сортировка)<br>
+            <input type="radio" name="groupTypeSort" value="ShakerSort">ShakerSort(модификация метода пузырька)<br>
+            <input type="radio" name="groupTypeSort" value="MergeSort">MergeSort (сортировка слиянием)<br>
+            <input type="radio" name="groupTypeSort" value="HeapSort">HeapSort (пирамидальная сортировка)<br>
+            <input type="radio" name="groupTypeSort" value="QuickSort">QuickSort (быстрая сортировка с опорным случайным элементом)<br>
+            <p><input type="submit" class="submit-button"></p>
+        </form></center>
+        
+        <center><div class="button-container">
+            <a href="http://localhost/index.html" class="double-border-button">Назад</a>
+        </div></center>
+    </body>
+</html>
